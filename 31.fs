@@ -1,3 +1,4 @@
+module Euler31
 
 let rec count amount coins =
     match amount, coins with 

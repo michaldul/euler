@@ -1,3 +1,4 @@
+module Euler47b
 
 let uniqueDivisors n =
     let divisors = Array.create (n+1) 0

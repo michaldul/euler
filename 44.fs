@@ -1,3 +1,5 @@
+module Euler44
+
 let isInteger x = x = (float (int32 x))
 let isPentagonal x = isInteger ((sqrt (1. + 24. * float x) + 1.) / 6.)
 let test (a, b) = isPentagonal (a - b) && isPentagonal (a + b)

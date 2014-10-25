@@ -1,3 +1,5 @@
+module Euler06
+
 let problem06 = 
     let numbers = [1 .. 100]
     let sqr x = x * x

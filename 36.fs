@@ -1,3 +1,5 @@
+module Euler36
+
 let rec isPalindrome lst =
     match lst with 
     | [_] | [] -> true

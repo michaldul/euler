@@ -1,3 +1,4 @@
+module Euler107
 
 type Edge = {A:int; B:int; Weight:int}
 type Graph = Edge list

@@ -1,3 +1,5 @@
+module Euler85
+
 let numberOfRectangles n m = (n + 1I) * n * (m + 1I) * m / 4I
 
 let rectangles = 
