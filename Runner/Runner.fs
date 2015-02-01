@@ -1,8 +1,9 @@
 ﻿module Runner
 
+
 let stopWatch = System.Diagnostics.Stopwatch.StartNew()
 
-Euler53.main()
+EulerCS.Problem3.Main()
 
 stopWatch.Stop()
 printfn "Time: %fs" stopWatch.Elapsed.TotalSeconds
