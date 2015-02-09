@@ -3,7 +3,7 @@
 
 let stopWatch = System.Diagnostics.Stopwatch.StartNew()
 
-EulerCS.Problem3.Main()
+EulerCS.Problem12.Main()
 
 stopWatch.Stop()
 printfn "Time: %fs" stopWatch.Elapsed.TotalSeconds
