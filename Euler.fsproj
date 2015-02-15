@@ -66,6 +66,7 @@
     <None Include="packages.config" />
     <Compile Include="53.fs" />
     <None Include="App.config" />
+    <Compile Include="10.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FsUnit.NUnit">
@@ -83,6 +84,13 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="EulerCS\EulerCS.csproj">
+      <Name>EulerCS</Name>
+      <Project>{269dcebe-02a3-47a6-b88d-63cf353b321e}</Project>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
