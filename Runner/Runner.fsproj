@@ -56,6 +56,11 @@
       <Project>{b864d0a5-f4da-486c-ba8c-ea1331e3b168}</Project>
       <Private>True</Private>
     </ProjectReference>
+    <ProjectReference Include="..\EulerCS\EulerCS.csproj">
+      <Name>EulerCS</Name>
+      <Project>{269dcebe-02a3-47a6-b88d-63cf353b321e}</Project>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
